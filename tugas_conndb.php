@@ -14,7 +14,7 @@ $tgl = isset($_POST['tgl']) ? $_POST['tgl'] : '';
 $bln = isset($_POST['bln']) ? $_POST['bln'] : '';
 $thn = isset($_POST['thn']) ? $_POST['thn'] : '';
 
-$sql="INSERT INTO formdate SET date='$tgl-$bln-$tgl'";
+$sql="INSERT INTO formdate SET date='$thn-$bln-$tgl'";
 $query = mysqli_query($conn, $sql);
 if (!$query) {
 	die ('SQL Error: ' . mysqli_error($conn));

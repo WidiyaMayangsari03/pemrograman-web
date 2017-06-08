@@ -7,7 +7,7 @@ echo "<form action='tugas_conndb.php' method='POST'>";
 	
 				echo "<th>Tanggal</th>";
 				echo "<th><select name='tgl'>";
-					echo "<option value=1 selected>1</option>";
+					echo "<option value= 1 selected>1</option>";
 					for ($tgl=2; $tgl<=31; $tgl++){
 					echo "<option value=\"".$tgl."\" selected>".$tgl."</option>";
 					}
@@ -15,7 +15,7 @@ echo "<form action='tugas_conndb.php' method='POST'>";
 				
 				echo "<th>Bulan</th>";
 				echo "<th><select name='bln'>";
-					echo "<option value=Januari selected>Jan</option>";
+					echo "<option value= 1 selected>Jan</option>";
 					for($bln=2; $bln<=12; $bln++){
 					echo "<option value=\"".$bln."\"selected>".$array_bulan[$bln]."</option>";
 					}
@@ -23,7 +23,7 @@ echo "<form action='tugas_conndb.php' method='POST'>";
 				
 				echo "<th>Tahun</th>";
 				echo "<th><select name='thn'>";
-					echo "<option value=1990 selected>1990</option>";
+					echo "<option value= 1990 selected>1990</option>";
 					for ($thn=1991; $thn<=2017; $thn++){
 					echo "<option value=\"".$thn."\" selected>".$thn."</option>";
 					}
